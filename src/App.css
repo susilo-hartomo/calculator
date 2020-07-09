@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.app {
+  justify-content: center;
+}
+body {
+  background-color: rgb(233, 236, 236);
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.body-Light {
+  background-color: rgb(233, 236, 236);
+}
+.body-Dark {
+  background-color: rgb(20, 19, 19);
+}
+
+h1 {
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 1.5%;
+  color: #616161;
+}
+.container {
+  width: 370px;
+}
+.result {
+  width: 59.1%;
+}
+
+.box-row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+button[type="text"] {
+  background-color: rgb(255, 255, 255);
+}
+
+button[type="button"]:hover {
+  background-color: rgb(37, 35, 59);
+  color: #fff;
+}
+
+.clear {
+  color: #fff;
+  background-color: rgb(255, 42, 42);
+}
+
+button {
+  border: none;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  color: black;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+h2 {
+  border: none;
+  width: 220px;
+  height: 70px;
+  background-color: white;
+  padding: 10px;
+  color: #616161;
+  margin: 2px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-buttons {
+  margin-top: 0.7%;
+  justify-content: center;
+}
+
+.bottom-buttons button {
+  height: 40px;
+  width: 120px;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    margin-top: 15vh;
+  }
+}
